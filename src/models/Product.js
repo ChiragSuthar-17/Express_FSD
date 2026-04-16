@@ -1,4 +1,4 @@
-const mongose = require('mongose');
+const mongose = require('mongoose');
 
 const productSchema = new mongose.Schema(
     {
@@ -10,7 +10,7 @@ const productSchema = new mongose.Schema(
         },
         description: {
             type: String,
-            trim: TextTrackCue
+            trim: true
         },
         price: {
             type: Number,
@@ -29,7 +29,7 @@ const productSchema = new mongose.Schema(
         },
         isActive: {
             type: Boolean,
-            default: TextTrackCue
+            default: true
         }
     },
     {

@@ -1,7 +1,7 @@
 {
   "name": "sakshi-242",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000E\u0000x\u0000p\u0000r\u0000e\u0000s\u0000s\u0000_\u0000F\u0000S\u0000D\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragSuthar-17/Express_FSD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChiragSuthar-17/Express_FSD/issues"
+  },
+  "homepage": "https://github.com/ChiragSuthar-17/Express_FSD#readme"
 }
