@@ -3,7 +3,7 @@ const dotenv = require ("dotenv");
 const connectDb = require ('./src/config/db.js');
 const productRoutes = require('./src/routes/productRoutes.js')
 const logger = require("./src/middleware/logger.js");
-const errorHandler = require("./src/middleware/errorHendler.js");
+const errorHandler = require("./src/middleware/errorHandler.js");
 
 
 dotenv.config();  // Read .env file secrets
